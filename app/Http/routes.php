@@ -11,6 +11,19 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// Route::get('/', function () {
+//     return view('welcome');
+// });
+
+// Route::any('soapUrl', 'SoapCallbackController@soapFun');
+
+// Route::match(['get', 'post'], '/', function () {
+//     return 'Hello World';
+// });
+
+
+//Route::any('/', function(){
+//	return "Hello World";
+//});
+
+Route::controller("/","Index");
