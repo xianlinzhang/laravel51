@@ -13,6 +13,6 @@ class Test
 {
     public function doSomething()
     {
-        echo '111111111';
+        echo 'This is TestClass\'s method doSomething';
     }
 }
