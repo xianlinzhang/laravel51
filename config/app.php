@@ -144,7 +144,7 @@ return [
         App\Providers\AuthServiceProvider::class,
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
-
+        App\Providers\TestServiceProvider::class,
 
         Artisaninweb\SoapWrapper\ServiceProvider::class, 
 
@@ -198,5 +198,6 @@ return [
 
         'SoapWrapper' => Artisaninweb\SoapWrapper\Facade\SoapWrapper::class,
     ],
+
 
 ];
