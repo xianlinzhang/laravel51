@@ -15,6 +15,6 @@ class Test extends Facade
 {
     protected static function getFacadeAccessor()
     {
-        return 'test';
+        return 'App\Facades\Test';
     }
 }

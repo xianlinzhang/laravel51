@@ -25,7 +25,7 @@ class TestServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->app->singleton('test',function(){
+        $this->app->singleton(\App\Facades\Test::class,function(){
             //return new TestService();
             return new Test;
         });
