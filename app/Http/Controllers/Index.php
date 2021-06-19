@@ -7,6 +7,7 @@ use Illuminate\Http\Request;
 
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
+use Extension;
 
 class Index extends Controller
 {
@@ -15,9 +16,12 @@ class Index extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function getIndex()
+    public function index()
     {
-        Test::doSomething();
+        // Test::doSomething();
+        $a = Extension::test_rtn('Aex');
+
+        return view('Extension::extension',['msg'=>$a]);
     }
 
     /**

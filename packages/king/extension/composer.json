@@ -1,0 +1,20 @@
+{
+    "name": "king/extension-for-laravel",
+    "description": "make extension for laravel",
+    "classmap": [
+        "database"
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "King\\ExtensionForLaravel\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "张先林",
+            "email": "zxldfirst@gmail.com"
+        }
+    ],
+    "require": {}
+}

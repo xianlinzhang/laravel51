@@ -26,4 +26,4 @@
 //	return "Hello World";
 //});
 
-Route::controller("/","Index");
+Route::get("/","Index@index");

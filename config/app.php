@@ -144,7 +144,9 @@ return [
         App\Providers\AuthServiceProvider::class,
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
+        
         App\Providers\TestServiceProvider::class,
+        King\ExtensionForLaravel\ExtensionServiceProvider::class,
 
         Artisaninweb\SoapWrapper\ServiceProvider::class, 
 
@@ -197,6 +199,8 @@ return [
         'View'      => Illuminate\Support\Facades\View::class,
 
         'SoapWrapper' => Artisaninweb\SoapWrapper\Facade\SoapWrapper::class,
+
+        'Extension' => King\ExtensionForLaravel\Facades\Extension::class,
     ],
 
 
