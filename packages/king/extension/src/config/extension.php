@@ -1,4 +1,5 @@
 <?php
 return [
-    'options' => [] // 只是为了演示
+    'options' => [],
+    'extension_dir' => app_path('Extensions'),
 ];

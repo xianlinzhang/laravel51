@@ -1,0 +1,24 @@
+<?php
+
+namespace :namespace;
+
+use King\ExtensionForLaravel\Extension;
+
+class :class_name extends Extension
+{
+
+    /**
+     * Extension http namespace.
+     *
+     * @var Extension
+    */
+
+    protected static $namespace = ':namespace'.'\Http\Controllers';
+
+    public $name = ':base_package';
+
+    public $views = __DIR__.'/../resources/views';
+
+    public $assets = __DIR__.'/../resources/assets';
+
+}
